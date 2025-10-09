@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade1 PHP</title>
+</head>
+<body>
+    <h1>sistema que calcula o preço de uma peça de roupa</h1>
+    <h3>caso o tamanho seja G o preço aumenta em 10%</h3>
+    <h4>Camisa = 50, Calca = 60, short = 30 e vestido = 90</h4>
+    <hr><hr>
+    <form action="atv1.php" method="post">
+        <select name="roupa" id="roupa">
+            <option value="camisa">camisa</option>
+            <option value="calca">calça</option>
+            <option value="short">short</option>
+            <option value="vestido">vestido</option>
+        </select>
+        <br>
+        <select name="tamanho" id="tamanho">
+            <option value="p">p</option>
+            <option value="m">m</option>
+            <option value="g">g</option>
+        </select>
+        <br><br>
+        <input type="submit" placeholder="Calcular">
+    </form>
+</body>
+</html>
